@@ -4,8 +4,8 @@ import MovieBox from './MovieBox';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar,Container,Nav,Form, FormControl,Button } from 'react-bootstrap';
 
-const API_URL="https://api.themoviedb.org/3/movie/popular?api_key=<<api_key_here>>";
-const API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=<<api_key_here>>&query";
+const API_URL="https://api.themoviedb.org/3/movie/popular?api_key=05bbd90eef0b4d3e58a7b2d555258ff0";
+const API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=05bbd90eef0b4d3e58a7b2d555258ff0&query";
 function App() {
 
   const [movies, setMovies]=useState([]);
